@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta de Alquiler y Mejora - Gaona 281 (Depósito y Terreno) y Lote Lindero</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <style>
+        /* Estilos personalizados */
+        body {
+            font-family: 'Inter', sans-serif; /* Fuente Inter */
+        }
+        /* Estilo para las secciones colapsables */
+        details > summary {
+            list-style: none; /* Ocultar marcador por defecto */
+            cursor: pointer;
+            padding: 1rem;
+            background-color: #f3f4f6; /* Gris claro */
+            border-radius: 0.5rem; /* Esquinas redondeadas */
+            transition: background-color 0.3s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        details > summary:hover {
+            background-color: #e5e7eb; /* Gris un poco más oscuro al pasar el mouse */
+        }
+        details > summary::after {
+            content: '\f078'; /* Icono de flecha hacia abajo de Font Awesome */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            transition: transform 0.3s ease;
+        }
+        details[open] > summary::after {
+            transform: rotate(180deg); /* Gira la flecha cuando está abierto */
+        }
+        details > div {
+            padding: 1rem;
+            border: 1px solid #e5e7eb; /* Borde ligero */
+            border-top: none; /* Sin borde superior para conectar con el summary */
+            border-radius: 0 0 0.5rem 0.5rem; /* Esquinas redondeadas inferiores */
+        }
+        /* Animación suave para el colapso/expansión (opcional) */
+        details[open] > div {
+            animation: fadeIn 0.5s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* Estilo para resaltar puntos clave */
+        .highlight {
+            color: #1d4ed8; /* Azul oscuro */
+            font-weight: 600;
+        }
+        /* Estilo para nota aclaratoria (eliminada, pero se deja por si acaso) */
+        .note {
+            font-size: 0.875rem; /* Tamaño de fuente más pequeño */
+            color: #6b7280; /* Gris medio */
+            margin-left: 0.5rem; /* Pequeño margen izquierdo */
+        }
+        /* Estilo para los contenedores principales */
+        .main-container {
+            max-width: 900px; /* Ancho máximo */
+            margin: 2rem auto; /* Centrado y con margen */
+            padding: 1.5rem; /* Relleno interno */
+            background-color: white;
+            border-radius: 0.75rem; /* Esquinas redondeadas */
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); /* Sombra sutil */
+        }
+        /* Adaptación para pantallas pequeñas */
+        @media (max-width: 768px) {
+            .main-container {
+                margin: 1rem;
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 1.5rem; /* Tamaño de título más pequeño */
+            }
+            h2 {
+                font-size: 1.25rem; /* Tamaño de subtítulo más pequeño */
+            }
+            .note {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <div class="main-container">
+        <header class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">Propuesta de Alquiler y Mejora</h1>
+             <p class="text-lg text-gray-600">Colectora Gaona 281 (Propiedad con Depósito) y Lote Lindero (60x20)</p>
+        </header>
+
+        <section class="mb-6">
+             <p class="text-gray-700 leading-relaxed">
+                Estimados propietarios, nos dirigimos a ustedes con el interés de alquilar la propiedad ubicada en Colectora Gaona 281, la cual incluye el <span class="highlight">depósito y su terreno correspondiente</span>, así como el <span class="highlight">terreno lindero sin construcciones</span> (dimensiones 60x20). Presentamos una propuesta integral que busca establecer una relación contractual a largo plazo, beneficiosa para ambas partes, incluyendo la <span class="highlight">mejora significativa del depósito</span> a nuestro cargo.
+            </p>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4 border-b pb-2">Nuestra Visión y Propuesta General</h2>
+            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                 <li>Alquilar <span class="highlight">ambas propiedades en conjunto</span> (la propiedad con el depósito y el terreno lindero vacío).</li>
+                <li>Establecer un contrato a <span class="highlight">largo plazo de 3 años (36 meses)</span>, brindando estabilidad.</li>
+                <li>Realizar una <span class="highlight">inversión significativa en refacciones y mejoras</span> necesarias en el depósito, financiadas por nosotros.</li>
+                <li>Proponemos un esquema financiero que contempla la <span class="highlight">amortización de nuestra inversión</span> inicial a cuenta de los primeros meses de alquiler.</li>
+            </ul>
+        </section>
+
+        <details class="mb-6 bg-white rounded-lg shadow-sm">
+            <summary class="text-xl font-semibold text-gray-700">
+                Propuesta Financiera Detallada
+                <span class="text-sm font-normal text-gray-500">(Click para expandir)</span>
+            </summary>
+            <div class="text-gray-700 space-y-4">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Condiciones de Ingreso:</h3>
+                    <ul class="list-disc list-inside space-y-1 pl-4">
+                        <li>
+                            <span class="highlight">Pago de Honorarios:</span> $3.000 USD
+                        </li>
+                        <li><span class="highlight">Exención de Mes de Adelanto y Depósito:</span> Solicitamos no abonar el mes de adelanto ni el depósito en garantía. <span class="highlight">Estos fondos</span> se destinarán íntegramente al inicio de las refacciones del depósito.</li>
+                        <li><span class="highlight">Gastos Notariales y Seguro:</span> A nuestro cargo, según condiciones estándar (certificaciones, informes si aplica, seguro de incendio post-firma).</li>
+                        <li><span class="highlight">Impuesto Municipal:</span> A nuestro cargo.</li>
+                    </ul>
+                     </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Alquiler y Amortización de Inversión:</h3>
+                     <ul class="list-disc list-inside space-y-1 pl-4">
+                        <li><span class="highlight">Período de Refacción (Estimado hasta Septiembre 2025):</span> No se abonará alquiler monetario. Los costos documentados de la obra en el depósito se considerarán como pago a cuenta de futuros alquileres.</li>
+                        <li><span class="highlight">Inicio Operativo (Post-Refacción):</span> Continuaremos descontando los gastos de obra documentados del valor del alquiler mensual hasta cubrir la <span class="highlight">totalidad de la inversión realizada</span>.</li>
+                         <li><span class="highlight">Alquiler Efectivo (Una vez amortizada la inversión, por ambas propiedades):</span>
+                            <ul class="list-circle list-inside pl-6 mt-1 space-y-1">
+                                <li>Resto del Año 1 (post-amortización): <span class="highlight">$2.500 USD mensuales</span>.</li>
+                                <li>Año 2: <span class="highlight">$3.000 USD mensuales</span>.</li>
+                                <li>Año 3: <span class="highlight">$3.500 USD mensuales</span>.</li>
+                            </ul>
+                        </li>
+                     </ul>
+                </div>
+                 <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Plazo del Contrato:</h3>
+                     <p><span class="highlight">36 meses (3 años)</span>, ofreciendo una relación contractual estable y duradera.</p>
+                 </div>
+            </div>
+        </details>
+
+        <details class="mb-6 bg-white rounded-lg shadow-sm">
+            <summary class="text-xl font-semibold text-gray-700">
+                Plan de Refacciones Propuesto (Depósito Gaona 281)
+                <span class="text-sm font-normal text-gray-500">(Click para expandir)</span>
+            </summary>
+            <div class="text-gray-700 space-y-3">
+                <p>Entendemos que el depósito requiere una serie de trabajos para adecuarlo a nuestras necesidades operativas. Nos comprometemos a realizar las siguientes mejoras (entre otras que puedan surgir del proyecto detallado):</p>
+                <ul class="list-disc list-inside space-y-1 pl-4">
+                    <li>Construcción de paredes divisorias.</li>
+                    <li>Terminación y/o adecuación de pisos.</li>
+                    <li>Pintura general y de oficinas.</li>
+                    <li>Instalación eléctrica necesaria.</li>
+                    <li>Mínima instalación de gas necesaria para la operación.</li>
+                    <li>Refacciones generales del espacio de trabajo.</li>
+                </ul>
+                <p class="mt-3 font-semibold">Presentaremos un <span class="highlight">proyecto detallado con planos y presupuesto</span> para su aprobación previa al inicio de cualquier obra.</p>
+                <p>Esta inversión no solo adapta el espacio a nuestro uso, sino que <span class="highlight">incrementa significativamente el valor general del depósito</span>.</p>
+            </div>
+        </details>
+
+        <details class="mb-6 bg-white rounded-lg shadow-sm">
+            <summary class="text-xl font-semibold text-gray-700">
+                Beneficios Clave para Ustedes
+                <span class="text-sm font-normal text-gray-500">(Click para expandir)</span>
+            </summary>
+            <div class="text-gray-700 space-y-3">
+                 <ul class="list-disc list-inside space-y-2">
+                    <li><span class="highlight">Valorización del Depósito:</span> Recepción del depósito significativamente mejorado y refaccionado <span class="highlight">sin inversión directa de su parte</span>.</li>
+                     <li><span class="highlight">Inquilino a Largo Plazo:</span> Aseguran un contrato de <span class="highlight">3 años</span> para ambas propiedades, reduciendo costos y tiempos de vacancia.</li>
+                     <li><span class="highlight">Renta por Lote Lindero:</span> Generan ingresos por el terreno lindero que actualmente podría no estar rentado o tener una renta menor.</li>
+                    <li><span class="highlight">Gestión Simplificada:</span> Nos encargamos de la gestión y ejecución de las refacciones necesarias en el depósito.</li>
+                     <li><span class="highlight">Ingresos Consolidados:</span> Un único inquilino para ambas propiedades facilita la administración.</li>
+                     <li><span class="highlight">Potencial Mayor Retorno:</span> Considerando la mejora del depósito y la renta conjunta de ambas propiedades, el retorno total de la inversión puede ser superior.</li>
+                 </ul>
+            </div>
+        </details>
+
+        <section class="mt-8 pt-6 border-t">
+             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Próximos Pasos</h2>
+             <p class="text-gray-700 mb-4 leading-relaxed">
+                Estamos convencidos de que esta propuesta representa una excelente oportunidad para ambas partes. Nos gustaría poder conversar sobre estos puntos en detalle y, de contar con su aprobación inicial, proceder a la <span class="highlight">elaboración del proyecto de refacción detallado (para el depósito)</span> para su revisión final.
+             </p>
+             <p class="text-gray-700 mb-4 leading-relaxed">
+                En caso de llegar a un acuerdo, nuestra intención es <span class="highlight">comenzar con las obras de refacción idealmente en Junio de 2025</span>, una vez firmado el contrato y aprobado el proyecto.
+             </p>
+             <p class="text-gray-700 mb-4 leading-relaxed">
+                Creemos firmemente en el potencial de crecimiento en esta ubicación. Si nuestra relación comercial prospera como esperamos, <span class="highlight">el espacio disponible nos permitiría considerar futuras ampliaciones o nuevos acuerdos contractuales</span> a largo plazo.
+             </p>
+             <p class="text-gray-700 font-semibold">
+                Agradecemos su tiempo y consideración. Quedamos a su disposición para cualquier consulta.
+             </p>
+             <div class="mt-6 text-gray-700 border-t pt-4">
+                 <p class="font-semibold">Atentamente,</p>
+                 <p><strong>Diego Bóveda</strong></p>
+                 <p>Dirección General</p>
+                 <p>Zono Construcción</p>
+                 <p><strong>Teléfono:</strong> 11 2163 5943</p>
+                 <p><strong>Email:</strong> diego.boveda@gmail.com</p>
+             </div>
+        </section>
+
+    </div>
+
+    <script>
+        // Script simple para mejorar la accesibilidad o añadir funcionalidades futuras si es necesario.
+        // Por ahora, la interactividad principal la da la etiqueta <details>.
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Propuesta interactiva cargada.');
+        });
+    </script>
+
+</body>
+</html>
